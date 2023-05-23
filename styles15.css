@@ -1,0 +1,154 @@
+
+/* @charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=inter:5000,800"); */
+
+
+
+.navbar {
+  max-width: 2000px; /* Establece una anchura máxima de 1200 píxeles para la barra de navegación */
+  margin: 0 auto; /* Centra la barra de navegación horizontalmente en su contenedor */
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.fade-in {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header img {
+	float: left;
+	margin-right: 15px;
+}
+
+.footer-container {
+  width: 2000px;
+  margin: 0;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.producto {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 50%;
+}
+
+.imagen {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.detalles {
+  padding: 20px;
+}
+
+.detalles h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detalles h2 {
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.botones .comprar-ahora {
+    background-color: rgb(51, 51, 51);
+}
+
+.botones .agregar-carrito {
+    background-color: rgb(5, 56, 136);
+    margin-right: 20px;
+}
+
+.botones button {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 20px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+}
+.botones button {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 20px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 5px;
+}
+
+.envio {
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+}
+
+.pagos {
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+}
+
+.cobertura {
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+}
+
+.garantia {
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+}
+

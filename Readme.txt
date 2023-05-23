@@ -1,0 +1,1 @@
+No Guarde los estilos ccs  en una carpeta ya que si lo guardaba en una carpeta no se visualizaban

@@ -1,0 +1,87 @@
+/* @charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=inter:5000,800"); */
+
+
+.navbar {
+  max-width: 2000px; /* Establece una anchura máxima de 1200 píxeles para la barra de navegación */
+  margin: 0 auto; /* Centra la barra de navegación horizontalmente en su contenedor */
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.animated-text {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+
+  body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 60px; /* Ajusta el valor para dejar espacio para el footer */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-contact h3, .footer-links h3 {
+  color: #333;
+}
+
+.footer-contact p, .footer-links a {
+  color: #666;
+}
+
+.footer-links a {
+  text-decoration: none;
+}
